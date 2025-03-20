@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_button_event" id="1uwfuMKX-uLmc9UV`$%Z" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="(UxhPQ^{sufcz[@P*A*f"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="robotbit_servo" id="Jjkm`Uwbq7OstbD-q:ii"><field name="index">robotbit.Servos.S1</field><value name="degree"><shadow type="math_number_minmax" id="QmI9v#l4sdKMa%*~ri)N"><mutation min="0" max="180" label="Degree" precision="0"></mutation><field name="SLIDER">0</field></shadow></value></block></next></block></statement></block><block type="device_button_event" id="P9MmP6}9PeAw?kPCyuAe" x="325" y="6"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="#h(Y!=CQdd*}lFa-qs.N"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="robotbit_servo" id="?FfK4(Js[p.l@iv;ItlU"><field name="index">robotbit.Servos.S1</field><value name="degree"><shadow type="math_number_minmax" id="!?amwuKerh*IFA(P2W*h"><mutation min="0" max="180" label="Degree" precision="0"></mutation><field name="SLIDER">180</field></shadow></value></block></next></block></statement></block></xml>
